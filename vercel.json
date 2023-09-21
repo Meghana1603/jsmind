@@ -1,0 +1,6 @@
+{
+    "headers": {
+      "Content-Security-Policy": "frame-ancestors 'self' https://jsmind.vercel.app/"
+    }
+  }
+  
