@@ -1007,7 +1007,10 @@ function App() {
   const handleMouseUp = (e, jmnode) => {};
   const handleClick = (e, jmnode) => { 
     if (jmnode && jmnode.data && jmnode.data.data.url) {
-      window.parent.location.href = jmnode.data.data.url;
+      const iframe = document.getElementById('myIframe');
+      if (iframe) {
+        iframe.src = jmnode.data.data.url;
+      }
     }
   };  
   
