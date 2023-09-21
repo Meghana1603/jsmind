@@ -1007,7 +1007,7 @@ function App() {
   const handleMouseUp = (e, jmnode) => {};
   const handleClick = (e, jmnode) => { 
     if (jmnode && jmnode.data && jmnode.data.data.url) {
-      window.open(jmnode.data.data.url);
+      window.location.href= jmnode.data.data.url;
     }
   };  
   
