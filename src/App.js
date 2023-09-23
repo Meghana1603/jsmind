@@ -13,14 +13,16 @@ const mind = {
     "id": "root",  
     "topic": "First Time Manager Journey",  
     "data": {
-      "info" : "You are a first-time manager. Now what? Becoming a manager is one of the most critical transitions in your career, and poor leadership behaviors can take hold early. This leadership journey will deepen your understanding of what it takes to lead, develop, and achieve through others. You’ll need confidence and passion as you develop your management style and earn respect from your team on your own accord."
+      "info" : "You are a first-time manager. Now what? Becoming a manager is one of the most critical transitions in your career, and poor leadership behaviors can take hold early. This leadership journey will deepen your understanding of what it takes to lead, develop, and achieve through others. You’ll need confidence and passion as you develop your management style and earn respect from your team on your own accord.",
+      "backgroundColor": "#E56D6E"
     },
     "children": [  
       {  
         "id": "sub1",  
         "topic": "Becoming a Frontline Manager",
         "data": {
-          "info" :"Making the transition from individual contributor to frontline leader can be a daunting adjustment. Moving into a leadership role involves more than just getting a new title. It means adopting a leadership mind-set, developing new skills and leadership competencies, and understanding your new relationships with those above and below you on the organizational chart."
+          "info" :"Making the transition from individual contributor to frontline leader can be a daunting adjustment. Moving into a leadership role involves more than just getting a new title. It means adopting a leadership mind-set, developing new skills and leadership competencies, and understanding your new relationships with those above and below you on the organizational chart.",
+          "backgroundColor": "#B589C0"
         },
         "children": [  
           {  
@@ -28,7 +30,8 @@ const mind = {
             "topic": "Leadership Transitions: Becoming a Frontline Manager",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/cab58e44-fe0f-4407-9ab4-30b4c99dbd49"
+              "url":"https://my.percipio.com/courses/cab58e44-fe0f-4407-9ab4-30b4c99dbd49",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -59,7 +62,8 @@ const mind = {
             "topic": "MIT Sloan Management Review on New Leader Transitions",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/60250763-27d7-4e96-8bcd-bb5ea16d93e5"
+              "url":"https://my.percipio.com/books/60250763-27d7-4e96-8bcd-bb5ea16d93e5",
+              "backgroundColor": "#5F55A9"
             },  
             "children": [  
               {  
@@ -83,7 +87,8 @@ const mind = {
             "topic": "The New Manager's Tool Kit: 21 Things You Need to Know to Hit the Ground Running",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/audiobooks/b87f72c0-bfdc-11e7-81db-ea0d1d097c44"
+              "url":"https://my.percipio.com/audiobooks/b87f72c0-bfdc-11e7-81db-ea0d1d097c44",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -107,7 +112,8 @@ const mind = {
             "topic": "Leadership Insights on Leader Transitions", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/f3187ac0-72f2-11e8-a369-c1c5e7426ac9"
+              "url":"https://my.percipio.com/courses/f3187ac0-72f2-11e8-a369-c1c5e7426ac9",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -138,7 +144,8 @@ const mind = {
             "topic": "From Techie to Boss: Transitioning to Leadership", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/fcbd033c-c181-41fa-8b9d-ba0fb5fd32ec"
+              "url":"https://my.percipio.com/books/fcbd033c-c181-41fa-8b9d-ba0fb5fd32ec",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -169,7 +176,8 @@ const mind = {
             "topic": "The New Leader's 100-Day Action Plan: How to Take Charge, Build Your Team, and Get Immediate Results, Third Edition",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/1729ba92-a699-4843-9799-bd7bb3aa7b2f"
+              "url":"https://my.percipio.com/books/1729ba92-a699-4843-9799-bd7bb3aa7b2f",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -200,7 +208,8 @@ const mind = {
             "topic": "Leadership Blindspots: How Successful Leaders Identify and Overcome the Weaknesses That Matter",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/track/6e061415-aaf3-4e54-b94b-f5e51b81a7bc#:~:text=Leadership%20Blindspots%3A%20How%20Successful%20Leaders%20Identify%20and%20Overcome%20the%20Weaknesses%20That%20Matter"
+              "url":"https://my.percipio.com/track/6e061415-aaf3-4e54-b94b-f5e51b81a7bc#:~:text=Leadership%20Blindspots%3A%20How%20Successful%20Leaders%20Identify%20and%20Overcome%20the%20Weaknesses%20That%20Matter",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
                 {  
@@ -240,7 +249,8 @@ const mind = {
         "topic": "Developing People", 
         "direction": "left", 
         "data": {
-          "info": "Leaders are only as good as the people they lead. Learn how to use tailored techniques and strategies to optimize performance."
+          "info": "Leaders are only as good as the people they lead. Learn how to use tailored techniques and strategies to optimize performance.",
+          "backgroundColor": "#B589C0"
         },
         "children": [  
           {  
@@ -248,7 +258,8 @@ const mind = {
             "topic": "Leading by Developing People",   
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/c7049df7-1f28-458b-945d-5df8981332e3"
+              "url":"https://my.percipio.com/courses/c7049df7-1f28-458b-945d-5df8981332e3",
+              "backgroundColor": "#5F55A9"
             }, 
             "children": [  
                 {  
@@ -300,7 +311,8 @@ const mind = {
             "topic": "MIT Sloan Management Review on Developing People", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/514ffc00-af6a-11e7-8d83-16b90c8be2ea"
+              "url":"https://my.percipio.com/books/514ffc00-af6a-11e7-8d83-16b90c8be2ea",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
                 {  
@@ -324,7 +336,8 @@ const mind = {
             "topic": "Leadership Insights on Developing People",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/ac318470-ce3e-11e7-845b-9d7d00b83945"
+              "url":"https://my.percipio.com/courses/ac318470-ce3e-11e7-845b-9d7d00b83945",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
                 {  
@@ -362,7 +375,8 @@ const mind = {
             "topic": "Help Them Grow or Watch Them Go: Career Conversations Employees Want", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/4a2f69bb-02ae-4570-95fc-2adb37af3ec6"
+              "url":"https://my.percipio.com/books/4a2f69bb-02ae-4570-95fc-2adb37af3ec6",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -393,7 +407,8 @@ const mind = {
             "topic": "Developing Successful Coaching Relationships", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/a6459160-9ed1-11e7-856e-ad138f9eeddf"
+              "url":"https://my.percipio.com/courses/a6459160-9ed1-11e7-856e-ad138f9eeddf",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
                 {  
@@ -431,7 +446,8 @@ const mind = {
             "topic": "MIT Sloan Management Review on Leader as Coach Special Collection",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/078a44c3-19c0-4b96-9d2d-6f27052f3fc1"
+              "url":"https://my.percipio.com/books/078a44c3-19c0-4b96-9d2d-6f27052f3fc1",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -455,7 +471,8 @@ const mind = {
             "topic": "Leadership Insights on Coaching",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/54bcc100-ce3e-11e7-845b-9d7d00b83945"
+              "url":"https://my.percipio.com/courses/54bcc100-ce3e-11e7-845b-9d7d00b83945",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -486,7 +503,8 @@ const mind = {
             "topic": "50 Top Tools for Coaching: A Complete Toolkit for Developing and Empowering People, Third Edition",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/cf4cfc00-bb56-11e7-9812-e270049af744"
+              "url":"https://my.percipio.com/books/cf4cfc00-bb56-11e7-9812-e270049af744",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -511,7 +529,8 @@ const mind = {
         "id": "sub3",  
         "topic": "Accountability",  
         "data": {
-          "info": "Organizations trust their leaders to be accountable. Discover how to foster both responsbility and empowerment in yourself and your team."
+          "info": "Organizations trust their leaders to be accountable. Discover how to foster both responsbility and empowerment in yourself and your team.",
+          "backgroundColor": "#B589C0"
         },
         "children": [  
           {  
@@ -519,7 +538,8 @@ const mind = {
             "topic": "Accountable Leadership",   
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/4b24fdfa-c958-11e7-8c81-9212ca48e307"
+              "url":"https://my.percipio.com/courses/4b24fdfa-c958-11e7-8c81-9212ca48e307",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
                 {  
@@ -557,7 +577,8 @@ const mind = {
             "topic": "MIT Sloan Management Review on The Accountable Leader", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/58d2e150-b84c-11e7-8eee-1a67cef39ad4"
+              "url":"https://my.percipio.com/books/58d2e150-b84c-11e7-8eee-1a67cef39ad4",
+              "backgroundColor": "#5F55A9"
             }, 
             "children": [  
               {  
@@ -581,7 +602,8 @@ const mind = {
             "topic": "Leadership Insights on Being Accountable",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/9b5802a0-ce3e-11e7-845b-9d7d00b83945"
+              "url":"https://my.percipio.com/courses/9b5802a0-ce3e-11e7-845b-9d7d00b83945",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
                 {  
@@ -619,7 +641,8 @@ const mind = {
             "topic": "The Accountable Leader: Developing Effective Leadership Through Managerial Accountability", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/audiobooks/d22d4110-9ee5-11e7-8a1a-aea793b17c5c"
+              "url":"https://my.percipio.com/audiobooks/d22d4110-9ee5-11e7-8a1a-aea793b17c5c",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -645,7 +668,8 @@ const mind = {
         "topic": "Driving Execution",  
         "direction": "left",
         "data": {
-          "info": "Vision, goals, and strategies mean little if not successfully executed. Learn how to develop an execution culture."
+          "info": "Vision, goals, and strategies mean little if not successfully executed. Learn how to develop an execution culture.",
+          "backgroundColor": "#B589C0"
         },
         "children": [  
           {  
@@ -653,7 +677,8 @@ const mind = {
             "topic": "Creating a Successful Business Execution Culture",   
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/7942ec10-9ece-11e7-8a06-490c4f736080"
+              "url":"https://my.percipio.com/courses/7942ec10-9ece-11e7-8a06-490c4f736080",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -684,7 +709,8 @@ const mind = {
             "topic": "MIT Sloan Management Review on Leading a Culture of Execution", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/57d7f123-2bbe-4f6d-a453-8f1e23389b58"
+              "url":"https://my.percipio.com/books/57d7f123-2bbe-4f6d-a453-8f1e23389b58",
+              "backgroundColor": "#5F55A9"
             }, 
             "children": [  
               {  
@@ -715,7 +741,8 @@ const mind = {
             "topic": "Seven Strategy Questions: A Simple Approach for Better Execution",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/audiobooks/0e714b8c-492f-4be8-8aa8-820553124e68"
+              "url":"https://my.percipio.com/audiobooks/0e714b8c-492f-4be8-8aa8-820553124e68",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -739,7 +766,8 @@ const mind = {
             "topic": "Leadership Insights on Leading a Culture of Execution", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/41746210-ce3e-11e7-845b-9d7d00b83945"
+              "url":"https://my.percipio.com/courses/41746210-ce3e-11e7-845b-9d7d00b83945",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
                 {  
@@ -784,7 +812,8 @@ const mind = {
             "topic": "Execution IS the Strategy: How Leaders Achieve Maximum Results in Minimum Time", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/b3d7e3b0-bfdc-11e7-b6fc-86813b37dd56"
+              "url":"https://my.percipio.com/books/b3d7e3b0-bfdc-11e7-b6fc-86813b37dd56",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -815,7 +844,8 @@ const mind = {
             "topic": "Confronting Reality: Doing What Matters to Get Things Right",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/292c7461-5726-4e5f-bb81-de4d59f7e146"
+              "url":"https://my.percipio.com/books/292c7461-5726-4e5f-bb81-de4d59f7e146",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -847,7 +877,8 @@ const mind = {
         "id": "sub5",  
         "topic": "Emotional Intelligence",  
         "data": {
-          "info": "Leaders need to exhibit self-awareness and empathy. Learn how to identify and regulate emotions to lead others."
+          "info": "Leaders need to exhibit self-awareness and empathy. Learn how to identify and regulate emotions to lead others.",
+          "backgroundColor": "#B589C0"
         },
         "children": [  
           {  
@@ -855,7 +886,8 @@ const mind = {
             "topic": "Becoming an Emotionally Intelligent Leader",   
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/d2852b40-9ec8-11e7-856e-ad138f9eeddf"
+              "url":"https://my.percipio.com/courses/d2852b40-9ec8-11e7-856e-ad138f9eeddf",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
                 {  
@@ -893,7 +925,8 @@ const mind = {
             "topic": "MIT Sloan Management Review on The Emotionally Intelligent Leader", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/24477f80-a3d0-11e7-b59c-fea9a2a20bf4"
+              "url":"https://my.percipio.com/books/24477f80-a3d0-11e7-b59c-fea9a2a20bf4",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -910,7 +943,8 @@ const mind = {
             "topic": "Working with Emotional Intelligence",
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/audiobooks/c9c2ab9a-6322-4b6f-b062-dfbdcf9adf5c"
+              "url":"https://my.percipio.com/audiobooks/c9c2ab9a-6322-4b6f-b062-dfbdcf9adf5c",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -934,7 +968,8 @@ const mind = {
             "topic": "Leadership Insights on Emotional Intelligence", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/courses/4b47cb60-ce3e-11e7-845b-9d7d00b83945"
+              "url":"https://my.percipio.com/courses/4b47cb60-ce3e-11e7-845b-9d7d00b83945",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -965,7 +1000,8 @@ const mind = {
             "topic": "The Emotional Intelligence Activity Kit: 50 Easy and Effective Exercises for Building EQ", 
             "data": {
               "info" :" ",
-              "url":"https://my.percipio.com/books/3cb562f5-3b4c-4d05-86fd-ea322e226d17"
+              "url":"https://my.percipio.com/books/3cb562f5-3b4c-4d05-86fd-ea322e226d17",
+              "backgroundColor": "#5F55A9"
             },
             "children": [  
               {  
@@ -992,7 +1028,7 @@ const mind = {
 const options = {
   container: "jsmind_container",
   theme: "primary",
-  editable: false,
+  editable: true,
   support_html: true,
   view: {
     draggable: false,
@@ -1005,7 +1041,7 @@ function App() {
   const handleContextMenu = (e, jmnode) => {};
   const handleMouseDown = (e, jmnode) => {};
   const handleMouseUp = (e, jmnode) => {};
-  const handleClick = (e, jmnode) => { 
+  const handleClick = (jmnode) => { 
     if (jmnode && jmnode.data && jmnode.data.data.url) {
       window.open(jmnode.data.data.url, "_blank");
     }
@@ -1019,7 +1055,7 @@ function App() {
         options={options}
         styles={{ width: "100%", height: "500px" }}
         // maybe this will help us in future when we decide to add our custom logic
-        onClick={handleClick}
+        onClickCourse={handleClick}
         // onContextMenu={handleContextMenu}
         // onMouseDown={handleMouseDown}
         // onMouseUp={handleMouseUp}
