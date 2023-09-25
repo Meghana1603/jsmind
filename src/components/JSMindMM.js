@@ -12,7 +12,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
     jm.show(mind);
     setJmInstance(jm)
 
-    const nodes = jm.view.container.querySelectorAll("jmnode");
+    const nodes = jm.view?.container.querySelectorAll("jmnode");
 
     const handleClick = (e) => {
       const selectedNode = jm.get_selected_node();
@@ -63,8 +63,8 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
         <div
           style={{
             position: 'absolute',
-            top: hoveredNode._data.view.abs_y+hoveredNode._data.view.height+10,
-            left: hoveredNode._data.view.abs_x,
+            top: hoveredNode._data?.view?.abs_y+hoveredNode._data?.view?.height+10,
+            left: hoveredNode._data?.view?.abs_x,
             width: '570px',
             backgroundColor: "white",
             // padding: "4px",
@@ -114,8 +114,8 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             display: 'flex',
             justifyContent: 'center',
             gap: "4px",
-            top: clickedNode._data.view.abs_y-clickedNode._data.view.height-10,
-            left: clickedNode._data.view.abs_x + (clickedNode._data.view.width)/2 - 62,
+            top: clickedNode._data?.view?.abs_y-clickedNode._data?.view?.height-10,
+            left: clickedNode._data?.view?.abs_x + (clickedNode._data?.view?.width)/2 - 62,
             width: 'auto',
             backgroundColor: "white",
             padding: "4px",
@@ -130,7 +130,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             var new_node_topic = "This is a new node";  
             jmInstance.add_node(clickedNode.id, new_node_id, new_node_topic);
             jmInstance.begin_edit(jmInstance.get_node(new_node_id)); 
-            const nodes = jmInstance.view.container.querySelectorAll("jmnode");
+            const nodes = jmInstance.view?.container.querySelectorAll("jmnode");
             nodes.forEach((node) => {
               if(node.getAttribute("nodeid")===new_node_id) {
               const parentNode = jmInstance.get_node(clickedNode.id);
@@ -149,7 +149,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             var existing_data = clickedNode.data.data; 
             existing_data.backgroundColor = "green";
             jmInstance.update_node(clickedNode.id, clickedNode.topic, existing_data);  
-            const nodes = jmInstance.view.container.querySelectorAll("jmnode");
+            const nodes = jmInstance.view?.container.querySelectorAll("jmnode");
             nodes.forEach((node) => {
               if(node.getAttribute("nodeid")===clickedNode.id) {
               node.style.backgroundColor = "green";  
