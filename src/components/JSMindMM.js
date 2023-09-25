@@ -54,22 +54,6 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
 
   return (
     <div>
-      <button style={{
-        position: 'fixed',
-        zIndex: '99',
-        top: 20,
-        right: "50%",
-        backgroundColor: "#007bff",
-        color: "white", 
-        border: "none",
-        padding: "10px 20px",
-        borderRadius: "4px",
-        cursor: "pointer",
-      }}
-      onClick={() =>{
-        alert("Mind map link copied to clipboard!");
-
-      }}>Share</button>
       <div ref={jmContainer} id={options.container} style={styles}></div>
       <div>
         {hoveredNode && (
@@ -133,10 +117,10 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
               }
             });
           }}/>
-          <img width="24" height="24" src="https://img.icons8.com/color/48/delete-forever.png" alt="delete-forever" title="Remove node" onClick={() => {
+          { clickedNode.id !== "root" && (<img width="24" height="24" src="https://img.icons8.com/color/48/delete-forever.png" alt="delete-forever" title="Remove node" onClick={() => {
             jmInstance.remove_node(clickedNode.id); 
             setNodeClicked(false)
-          }}/>
+          }}/>)}
           { clickedNode.data.data.url && (<img width="24" height="24" src="https://img.icons8.com/fluency/48/play.png" alt="play" onClick={() => {
             onClickCourse(jmInstance.get_selected_node())
           }}/>)}
@@ -144,6 +128,12 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             var existing_data = clickedNode.data.data; 
             existing_data.backgroundColor = "green";
             jmInstance.update_node(clickedNode.id, clickedNode.topic, existing_data);  
+            const nodes = jmInstance.view.container.querySelectorAll("jmnode");
+            nodes.forEach((node) => {
+              if(node.getAttribute("nodeid")===clickedNode.id) {
+              node.style.backgroundColor = "green";  
+              }
+            });
           }}/>
           
           <img width="12" height="12" src="https://img.icons8.com/small/16/delete-sign.png" alt="delete-sign" onClick={() => {
