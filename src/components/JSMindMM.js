@@ -125,7 +125,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             boxShadow: "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
           }}
         >
-            <img width="24" height="24" src="https://img.icons8.com/color/48/add--v1.png" alt="add--v1" title="Add new node" onClick={(e) => {
+            <img width="24" height="24" src="https://img.icons8.com/color/48/add--v1.png" alt="add--v1" onClick={(e) => {
             var new_node_id = clickedNode.id + '_' + new Date().getTime();  
             var new_node_topic = "This is a new node";  
             jmInstance.add_node(clickedNode.id, new_node_id, new_node_topic);
@@ -138,7 +138,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
               }
             });
           }}/>
-          { clickedNode.id !== "root" && (<img width="24" height="24" src="https://img.icons8.com/color/48/delete-forever.png" alt="delete-forever" title="Remove node" onClick={() => {
+          { clickedNode.id !== "root" && (<img width="24" height="24" src="https://img.icons8.com/color/48/delete-forever.png" alt="delete-forever" onClick={() => {
             jmInstance.remove_node(clickedNode.id); 
             setNodeClicked(false)
           }}/>)}
