@@ -97,7 +97,11 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             alignItems: 'center'
           }}>
             {hoveredNode.data.data.info}
-            <div id="videoOverview"></div>
+            <iframe width="60%" height="auto" 
+              title="video"
+              src="https://cdn2.percipio.com/secure/b/1695724082.9447dc700deb8f8b139c75933d0bd0d468e6dc7e/eot/c6647d06-b2c0-4f92-a5a3-ae59f7960792/720_2200kps.mp4" 
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       )}
