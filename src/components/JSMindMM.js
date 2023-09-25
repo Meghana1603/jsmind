@@ -34,6 +34,9 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
           setHoveredNode(node):
           setHoveredNode(null)
       }
+      else{
+        setHoveredNode(null)
+      }
     }
 
     const handleUnHover = (e) => {
@@ -94,10 +97,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             alignItems: 'center'
           }}>
             {hoveredNode.data.data.info}
-            <iframe width="60%" height="auto" 
-              title="video"
-              src="https://www.youtube.com/embed/Ox_9tMUtxGE?si=HvnOM9xCkhcO6SPf" 
-              frameborder="0" allowfullscreen></iframe>
+            <div id="videoOverview"></div>
           </div>
         </div>
       )}
