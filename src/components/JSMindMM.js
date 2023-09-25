@@ -28,9 +28,9 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
       const targetNode = e.currentTarget;
       const nodeId = targetNode.getAttribute("nodeid");
       const node = jm.get_node(nodeId);
-      targetNode.style.backgroundColor = node.data.data.backgroundColor;  
+      targetNode.style.backgroundColor = node.data?.data?.backgroundColor;  
       if (!nodeClicked) {
-        node.data.data?.info?
+        node.data?.data?.info?
           setHoveredNode(node):
           setHoveredNode(null)
       }
@@ -43,7 +43,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
       const targetNode = e.currentTarget;
       const nodeId = targetNode.getAttribute("nodeid");
       const node = jm.get_node(nodeId);
-      targetNode.style.backgroundColor = node.data.data.backgroundColor; 
+      targetNode.style.backgroundColor = node.data?.data?.backgroundColor; 
       }
 
     jmContainer.current.addEventListener("click", handleClick);
@@ -51,7 +51,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
       node.addEventListener("mouseenter", handleHover);
       node.addEventListener("mouseleave", handleUnHover);
       const styleNode = jm.get_node(node.getAttribute("nodeid"));
-      node.style.backgroundColor = styleNode.data.data.backgroundColor;  
+      node.style.backgroundColor = styleNode.data?.data?.backgroundColor;  
     });
   }, []);
 
@@ -96,7 +96,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             gap: '20px',
             alignItems: 'center'
           }}>
-            {hoveredNode.data.data.info}
+            {hoveredNode.data?.data?.info}
             <iframe width="60%" height="auto" 
               title="video"
               src="https://cdn2.percipio.com/secure/b/1695724082.9447dc700deb8f8b139c75933d0bd0d468e6dc7e/eot/c6647d06-b2c0-4f92-a5a3-ae59f7960792/720_2200kps.mp4" 
@@ -134,7 +134,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             nodes.forEach((node) => {
               if(node.getAttribute("nodeid")===new_node_id) {
               const parentNode = jmInstance.get_node(clickedNode.id);
-              node.style.backgroundColor = parentNode.children[0].data.data.backgroundColor;  
+              node.style.backgroundColor = parentNode.children[0].data?.data?.backgroundColor;  
               }
             });
           }}/>
@@ -142,11 +142,11 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             jmInstance.remove_node(clickedNode.id); 
             setNodeClicked(false)
           }}/>)}
-          { clickedNode.data.data.url && (<img width="24" height="24" src="https://img.icons8.com/fluency/48/play.png" alt="play" onClick={() => {
+          { clickedNode.data?.data?.url && (<img width="24" height="24" src="https://img.icons8.com/fluency/48/play.png" alt="play" onClick={() => {
             onClickCourse(jmInstance.get_selected_node())
           }}/>)}
           <img width="24" height="24" src="https://img.icons8.com/color/48/checked--v1.png" alt="checked--v1" onClick={() => {
-            var existing_data = clickedNode.data.data; 
+            var existing_data = clickedNode.data?.data; 
             existing_data.backgroundColor = "green";
             jmInstance.update_node(clickedNode.id, clickedNode.topic, existing_data);  
             const nodes = jmInstance.view?.container.querySelectorAll("jmnode");
