@@ -24,6 +24,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
     };
 
     const handleHover = (e) => {
+      setHoveredNode(null)
       const targetNode = e.currentTarget;
       const nodeId = targetNode.getAttribute("nodeid");
       const node = jm.get_node(nodeId);
@@ -40,7 +41,6 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
       const nodeId = targetNode.getAttribute("nodeid");
       const node = jm.get_node(nodeId);
       targetNode.style.backgroundColor = node.data.data.backgroundColor; 
-        setHoveredNode(null)
       }
 
     jmContainer.current.addEventListener("click", handleClick);
@@ -74,14 +74,31 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
         >
           <div
             style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              gap: '20px',
               fontSize: "16px",
               fontWeight: "bold",
               padding: "10px"
             }}
            >
           {hoveredNode.topic}
+          <img width="12" height="12" src="https://img.icons8.com/small/16/delete-sign.png" alt="delete-sign" onClick={() => {
+            setHoveredNode(null)
+          }}/>
           </div>
-          {hoveredNode.data.data.info}
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '20px',
+            alignItems: 'center'
+          }}>
+            {hoveredNode.data.data.info}
+            <iframe width="60%" height="auto" 
+              title="video"
+              src="https://www.youtube.com/embed/Ox_9tMUtxGE?si=HvnOM9xCkhcO6SPf" 
+              frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
       )}
       </div>
