@@ -141,6 +141,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
           { clickedNode.id !== "root" && (<img width="24" height="24" src="https://img.icons8.com/color/48/delete-forever.png" alt="delete-forever" onClick={() => {
             jmInstance.remove_node(clickedNode.id); 
             setNodeClicked(false)
+            setHoveredNode(null)
           }}/>)}
           { clickedNode.data?.data?.url && (<img width="24" height="24" src="https://img.icons8.com/fluency/48/play.png" alt="play" onClick={() => {
             onClickCourse(jmInstance.get_selected_node())
