@@ -25,6 +25,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
 
     const handleHover = (e) => {
       setHoveredNode(null)
+      setNodeClicked(false)
       const targetNode = e.currentTarget;
       const nodeId = targetNode.getAttribute("nodeid");
       const node = jm.get_node(nodeId);
