@@ -99,7 +99,7 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
             {hoveredNode.data?.data?.info}
             <iframe width="60%" height="auto" 
               title="video"
-              src="https://cdn2.percipio.com/secure/b/1695724082.9447dc700deb8f8b139c75933d0bd0d468e6dc7e/eot/c6647d06-b2c0-4f92-a5a3-ae59f7960792/720_2200kps.mp4" 
+              src="https://cdn2.percipio.com/secure/b/1695879574.258c1e37fc9f0c365f9b6ed46a9ea1c70c72ed62/eot/af58d56f-fc23-4585-98fd-c663cd172d1a/720_2200kps.mp4" 
               allowFullScreen
             ></iframe>
           </div>
