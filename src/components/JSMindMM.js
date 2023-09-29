@@ -29,7 +29,10 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
       const targetNode = e.currentTarget;
       const nodeId = targetNode.getAttribute("nodeid");
       const node = jm.get_node(nodeId);
-      targetNode.style.backgroundColor = node.data?.data?.backgroundColor;  
+      targetNode.style.backgroundColor = node.data?.data?.backgroundColor; 
+      targetNode.style.transition = "transform 0.5s ease-in-out";
+      targetNode.style.transform = "scale(1.75)" ;
+      targetNode.style.zIndex = "3";
       if (!nodeClicked) {
         node.data?.data?.info?
           setHoveredNode(node):
@@ -45,6 +48,8 @@ const JSMindMM = ({ mind, styles, options, onClickCourse }) => {
       const nodeId = targetNode.getAttribute("nodeid");
       const node = jm.get_node(nodeId);
       targetNode.style.backgroundColor = node.data?.data?.backgroundColor; 
+      targetNode.style.transform = "scale(1)" ;
+      targetNode.style.zIndex = "2";
       }
 
     jmContainer.current.addEventListener("click", handleClick);
